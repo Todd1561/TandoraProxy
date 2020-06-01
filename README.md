@@ -19,7 +19,7 @@ Commands:
 * "next": play next song.
 * "thumbsup": like current song.
 * "thumbsdown": dislike current song.
-* "change station <station mame>": change the current station to station <???>.
+* "change station *station mame*": change the current station to station *???*.
 	
 Questions or comments?
 

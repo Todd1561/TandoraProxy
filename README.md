@@ -19,7 +19,7 @@ Commands:
 * "next": play next song.
 * "thumbsup": like current song.
 * "thumbsdown": dislike current song.
-* "change station *station mame*": change the current station to station *???*.
+* "change station *__station name__*": change the current station to station *???*.
 	
 Questions or comments?
 
@@ -27,4 +27,4 @@ Todd Nelson
 
 todd@toddnelson.net
 
-[My Website](https://toddnelson.net)
+[https://toddnelson.net](https://toddnelson.net)

@@ -27,7 +27,7 @@ Module Module1
 
             If arg = "/help" Then
                 Console.WriteLine(vbCrLf & "TandoraProxy, Ver. 2.01 (4/9/2020), toddnelson.net.  https://toddnelson.net" & vbCrLf)
-                Console.WriteLine("Syntax:")
+                Console.WriteLine("Syntax: ")
                 Console.WriteLine(vbTab & "/pianopath=<absolute path to Pianobar exe> (default: current directory)")
                 Console.WriteLine(vbTab & "/pianoserv=<address of Pianobar Telnet server> (default: localhost)")
                 Console.WriteLine(vbTab & "/pianoport=<TCP port of Pianobar Telnet server> (default: 23)")

@@ -5,7 +5,7 @@
 
 1. Enable the Windows Telnet service (3rd party telnet servers should work, too)
 1. Set the Telnet service to start automatically in services.msc
-1. Disable the idle timeout setting by entering "tlntadm.exe config timeoutactive=no" in an elevated command prompt
+1. Disable the idle timeout setting by entering "tlntadmn.exe config timeoutactive=no" in an elevated command prompt
 1. Download the latest pianobar-windows build from [pianobar-windows](https://github.com/thedmd/pianobar-windows/releases) and save it to a folder along with TandoraProxy.exe
 1. Start TandoraProxy with the "/help" argument to see the arguments you'll need to specify.
 1. Remember to open the TCP port you decide to use for TandoraProxy (1561 by default) on any relevant firewalls

@@ -1,4 +1,4 @@
-##This project has been replaced with a rewrite that is an actual windows service, rather than just a console application.  See the new repo here: [https://github.com/Todd1561/TandoraProxySvc](https://github.com/Todd1561/TandoraProxySvc)
+## This project has been replaced with a rewrite that is an actual windows service, rather than just a console application.  See the new repo here: [https://github.com/Todd1561/TandoraProxySvc](https://github.com/Todd1561/TandoraProxySvc)
 
 * This program is used to interface between the pianobar-windows opensource application and any program that can send TCP commands.  
 * This would generally be useful in a headless home automation A/V setup to bring Pandora to your sound system.  
@@ -15,7 +15,7 @@
 
 From here you can use whatever language you want that can work with TCP sockets to interace with TandoraProxy/Pianobar.
 	
-Commands:	
+### Commands:	
 * "update": have TandoraProxy query pianobar-windows for the current song, station, play time and whether or not playback is active and a list of your Pandora stations.
 * "playpause": toggle playing and pausing music playback.
 * "next": play next song.
@@ -23,13 +23,10 @@ Commands:
 * "thumbsdown": dislike current song.
 * "change station *__station name__*": change the current station to station *???*.
 
-Known Issues:
+## Known Issues:
 Doesn't seem to work with the latest version (2020.04.20) of Pianobar-Windows, stick with version 2019.05.03.  For some reason the key commands are erradically accepted by pianobar and the responses are erratic as well.  I suspect something has changed with pianobar that makes it incompatible with the telnet library I'm Currently using.  Need to investigate more.
 	
-Questions or comments?
-
-Todd Nelson
-
-todd@toddnelson.net
-
-[https://toddnelson.net](https://toddnelson.net)
+## Author
+Todd Nelson  
+todd@toddnelson.net  
+https://toddnelson.net

@@ -1,3 +1,5 @@
+##This project has been replaced with a rewrite that is an actual windows service, rather than just a console application.  See the new repo here: [https://github.com/Todd1561/TandoraProxySvc](https://github.com/Todd1561/TandoraProxySvc)
+
 * This program is used to interface between the pianobar-windows opensource application and any program that can send TCP commands.  
 * This would generally be useful in a headless home automation A/V setup to bring Pandora to your sound system.  
 * This application works by leveraging the Telnet server that can be enabled in Windows and remotely starting/sending commands to Pianobar. 
